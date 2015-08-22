@@ -1,8 +1,0 @@
-#!/bin/bash
-
-sudo apt-get install postgresql postgresql-contrib libpq-dev
-
-echo "create a user for postgres"
-echo "sudo su - postgres
-createuser --pwprompt
-exit"
