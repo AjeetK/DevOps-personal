@@ -15,3 +15,5 @@ sudo apt-get update -y
 
 # Install nginx and passenger
 sudo apt-get install nginx-full passenger
+
+

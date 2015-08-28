@@ -18,7 +18,8 @@ curl -sSL https://get.rvm.io | bash -s stable
 source ~/.rvm/scripts/rvm
 
 echo "Installs Ruby"
-rvm install 2.2.2
+#rvm install 2.2.2
+rvm install ruby-2.2.1
 rvm use 2.2.1 --default
 
 echo "gem: --no-ri --no-rdoc" > ~/.gemrc
@@ -54,3 +55,5 @@ It is just a hiccup with the shell, solutions:
     $ source ~/.rvm/scripts/rvm                                                  
     Allow login shell, example http://rvm.io/integration/gnome-terminal/"
 
+echo "If you are using a remote database server than don't forget to install the client side package for the corresponding database.
+For example you need to install libpq-dev package if you are using postgresql database similarly you need to install client side package for corresponding database."
