@@ -1,3 +1,7 @@
+
+Give 400 permission to key value pair file i.e. ".pem" file
+chmod 400 my-key-pair.pem
+
 Generally ssh can be done as per the following command
 
 $ssh -i path/to/.pem user@ip-or-public-dns 
@@ -15,3 +19,6 @@ Host prodapp1
 Save this file 
 Now move the prod.pem file from its current directory to ~/.ssh/ directory by the following command
 $mv /media/ajeet/Random/devops/prod.pem ~/.ssh/	
+
+For troubleshooting in doing ssh than follow the instructions on the link 
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/TroubleshootingInstancesConnecting.html
